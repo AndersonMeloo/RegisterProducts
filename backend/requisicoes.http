@@ -6,8 +6,8 @@ POST http://localhost:3001/produtos
 content-type: application/json
 
 {
-    "nome": "Notebook",
-    "descricao": "Notebook Dell Inspiron 15 3000",
+    "nome": "",
+    "descricao": "",
     "preco": 3500.00
 }
 
@@ -16,5 +16,5 @@ PATCH http://localhost:3001/produtos/1
 content-type: application/json
 
 {
-    "nome": "Notebook Dell Inspiron"
+    "nome": ""
 }
