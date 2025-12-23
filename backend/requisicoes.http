@@ -6,9 +6,9 @@ POST http://localhost:3001/produtos
 content-type: application/json
 
 {
-    "nome": "",
-    "descricao": "",
-    "preco": 3500.00
+    "nome": "Golf GTI",
+    "descricao": "2.0 Turbo - Ano 2014",
+    "preco": 100000
 }
 
 ###
@@ -16,5 +16,5 @@ PATCH http://localhost:3001/produtos/1
 content-type: application/json
 
 {
-    "nome": ""
+    "nome": "Jetta GLI"
 }
