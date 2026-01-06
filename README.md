@@ -24,3 +24,24 @@ Funcionalidades
 ```
 DATABASE_URL=""
 ```
+
+## Rodando o Backend
+```
+cd backend
+npm install
+npx prisma migrate dev
+npm run start
+```
+
+# Backend
+Funcionalidades
+- Consumo da API de produtos
+- Listagem dos produtos cadastrados
+- Interface estilizada com Tailwind CSS
+
+## Rodando o Frontend
+```
+cd frontend
+npm install
+npm run dev
+```
