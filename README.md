@@ -33,7 +33,7 @@ npx prisma migrate dev
 npm run start
 ```
 
-# Backend
+# Frontend
 Funcionalidades
 - Consumo da API de produtos
 - Listagem dos produtos cadastrados
